@@ -1,0 +1,4 @@
+cn:
+  Springcloud:
+    book:
+      config: I am the git configuration  file from dev  environment
