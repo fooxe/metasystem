@@ -1,4 +1,4 @@
 cn:
   Springcloud:
     book:
-      config: I am the git configuration  file from test environment
+      config: I am the git configuration  file from configinfo.yml environment
