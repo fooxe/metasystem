@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Showqiu O2O 后台</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script type="text/javascript" src="easyUI1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="easyUI1.4/jquery.easyui.min.js"></script>
+</head>
+<body class="easyui-layout">
+<div data-options="region:'north',border:false" style="height:60px;background:#B3DFDA;padding:10px"><h2> 翛虬O2O校园电子商务系统后台</h2></div>
+<div data-options="region:'west',split:true,title:'翛虬网'" style="width:250px;padding:10px;">
+    <div class="easyui-accordion" sty2le="width:100%;height:100%;">
+
+        <div title="站点管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <!--目标是维护电子商务平台-->
+            <ul class="easyui-tree">
+                <li>
+                    <span>站点管理</span>
+                    <ul>
+                        <li>
+                            <span>网站参数配置</span>
+                            <ul>
+                                <li>销售站点</li>
+                                <li>后台管理站点</li>
+                                <li>模板管理</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>文件管理</span>
+                            <ul>
+                                <li>文档管理</li>
+                                <li>图片管理</li>
+                                <li>文章管理</li>
+                                <li>广告管理</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div title="销售管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <!--目标是商品出售-->
+            <ul class="easyui-tree">
+                <li>
+                    <span>销售管理</span>
+                    <ul>
+                        <li>
+                            <span>营销策划</span>
+                            <ul>
+                                <li>网络营销</li>
+                                <li>线下促销</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>活动管理</span>
+                            <ul>
+                                <li>积分管理</li>
+                                <li>返利管理</li>
+                                <li>商品兑换</li>
+                                <li>顾客关怀</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>商品管理</span>
+                            <ul>
+                                <li>商品图片</li>
+                                <li>商品类别</li>
+                                <li>商品参数</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>评论管理</span>
+                            <ul>
+                                <li>评论管理</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>退货管理</span>
+                            <ul>
+                                <li>退货管理</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div title="人事管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <ul class="easyui-tree">
+                <li>
+                    <span>人事管理</span>
+                    <ul>
+                        <li>
+                            <span>客户管理</span>
+                            <ul>
+                                <li>积分管理</li>
+                                <li>信誉度管理</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>供应商管理</span>
+                            <ul>
+                                <li>供应商信息</li>
+                                <li>供货表</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>员工管理</span>
+                            <ul>
+                                <li>员工信息管理</li>
+                                <li>考勤制度</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>呼叫管理</span>
+                            <ul>
+                                <li>客户呼叫</li>
+                                <li>供应商呼叫</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>人才招聘</span>
+                            <ul>
+                                <li>普通员工</li>
+                                <li>经管层招聘</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div title="财务管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <ul class="easyui-tree">
+                <li>
+                    <span>财务管理</span>
+                    <ul>
+                        <li>
+                            <span>订单管理</span>
+                            <ul>
+                                <li>支付管理</li>
+                                <li>订单历史</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>薪资管理</span>
+                            <ul>
+                                <li>绩效管理</li>
+                                <li>其它</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>采购预算</span>
+                            <ul>
+                                <li>设备采购</li>
+                                <li>其它采购</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div title="供应管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <ul class="easyui-tree">
+                <li>
+                    <span>采购管理</span>
+                    <ul>
+                        <li>
+                            <span>客户管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>供应商管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>员工管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>呼叫管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>人才招聘</span>
+                            <ul>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div title="系统管理" data-options="iconCls:'icon-search'" style="padding:10px;">
+            <ul class="easyui-tree">
+                <li>
+                    <span>系统管理</span>
+                    <ul>
+                        <li>
+                            <span>组织机构管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>权限管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>基础设施管理</span>
+                            <ul>
+                                <li>待定节点</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>统计分析</span>
+                            <ul>
+                                <li>销售统计</li>
+                                <li>财务统计</li>
+                                <li>历史查询</li>
+                                <li>报表打印</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div data-options="region:'east',split:true,collapsed:true,title:'帮助主题'" style="width:200px;padding:10px;">人工服务
+</div>
+<div data-options="region:'south',border:false" style="height:50px;background:#A9FACD;padding:10px;text-align: center">
+    版权所属@达秀软件公司
+</div>
+<div data-options="region:'center',title:'商品管理'">
+
+    <form id="ff" method="post">
+        <table cellpadding="5">
+            <tr>
+                <td>大类别:</td>
+                <td> <select class="easyui-combobox" name="language">
+                    <option value="ar">大类别A</option>
+                    <option value="uk">小类别B</option>
+                </select></td>
+                <td>小类别:</td>
+                <td> <select class="easyui-combobox" name="kink">
+                    <option value="ar">小类别A</option>
+                    <option value="uk">小类别B</option>
+                    <option value="vi">小类别C</option>
+                </select></td>
+                <td>商品名:</td>
+                <td><input class="easyui-textbox" type="text" name="subject" data-options="required:true"/></td>
+            </tr>
+
+            <tr>
+                <td>商品条码:</td>
+                <td><input class="easyui-textbox" type="text" name="name" data-options="required:true"/></td>
+                <td>库存量:</td>
+                <td><input class="easyui-textbox" type="text" name="name" data-options="required:true"/></td>
+                <td>供应商:</td>
+                <td> <select class="easyui-combobox" name="language">
+                    <option value="ar">供应商A</option>
+                    <option value="uk">供应商B</option>
+                    <option value="vi">供应商C</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>信息录入于:</td>
+                <td>
+                    <input class="easyui-datebox" data-options="sharedCalendar:'#cc'">
+                </td>
+                <td>到:</td>
+                <td>
+                    <input class="easyui-datebox" data-options="sharedCalendar:'#cc'">
+                </td>
+            </tr>
+            <div id="cc" class="easyui-calendar"></div>
+            </tr>
+        </table>
+        <div class="easyui-panel" style="padding:5px;width: 100%;">
+            <a href="javascript:void(0)" class="easyui-linkbutton " style="float: right;margin-left: 5px;"
+               onclick="submitForm()">导出</a>
+            <a href="javascript:void(0)" class="easyui-linkbutton" style="float: right;margin-left: 5px;"
+               onclick="clearForm()">清空</a>
+            <a href="#" class="easyui-linkbutton" data-options="toggle:true,group:'g1'"
+               style="float: right;margin-left: 5px;">其它</a>
+            <a href="#" class="easyui-linkbutton" data-options="toggle:true,group:'g1',selected:true"
+               style="float: right;margin-left: 5px;">审核</a>
+            <a href="#" class="easyui-linkbutton" data-options="toggle:true,group:'g1'"
+               style="float: right;margin-left: 5px;">修改</a>
+            <a href="#" class="easyui-linkbutton" data-options="toggle:true,group:'g1'"
+               style="float: right;margin-left: 5px;">新增</a>
+            <a href="#" class="easyui-linkbutton" data-options="toggle:true,group:'g1'"
+               style="float: right;margin-left: 5px;">查询</a>
+        </div>
+    </form>
+
+    <table class="easyui-datagrid" title="基础数据表格" style="width:100%;height:250px"
+           data-options="singleSelect:true,collapsible:true,url:'jsons/for_main.json',method:'get'">
+        <thead>
+        <tr>
+            <th data-options="field:'itemid',width:80">表项 ID</th>
+            <th data-options="field:'productid',width:100">产品编号</th>
+            <th data-options="field:'listprice',width:80,align:'right'">定价</th>
+            <th data-options="field:'unitcost',width:80,align:'right'">库存量</th>
+            <th data-options="field:'attr1',width:250">属性</th>
+            <th data-options="field:'status',width:60,align:'center'">状态</th>
+        </tr>
+        </thead>
+    </table>
+    <div class="easyui-panel" style="width: 100%;">
+        <div class="easyui-pagination" data-options="showPageList:false,total:114,buttons:$('#buttons')"></div>
+    </div>
+    <div id="buttons">
+        <table style="border-spacing:0">
+            <tr>
+                <td>
+                    <input class="easyui-searchbox" style="width:150px">
+                </td>
+                <td>
+                    <a href="javascript:void(0)" class="easyui-linkbutton"
+                       data-options="iconCls:'icon-save',plain:true"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Custom Format in ComboBox - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="../../themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../../themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="../demo.css">
+	<script type="text/javascript" src="../../jquery.min.js"></script>
+	<script type="text/javascript" src="../../jquery.easyui.min.js"></script>
+</head>
+<body>
+	<div>
+		<div>
+			<h2>Custom Format in ComboBox</h2>
+			<p>This sample shows how to custom the format of list item.</p>
+			<div style="margin:20px 0"></div>
+			<input class="easyui-combobox" name="language" data-options="
+				url: 'combobox_data1.json',
+				method: 'get',
+				valueField: 'id',
+				textField: 'text',
+				panelWidth: 350,
+				panelHeight: 'auto',
+				formatter: formatItem
+			"><!--引用combobox_data1.json-->
+			<script type="text/javascript">
+				function formatItem(row){
+					var s = '<span style="font-weight:bold">' + row.text + '</span><br/>' +
+							'<span style="color:#888">' + row.desc + '</span>';
+					return s;
+				}
+			</script>
+		</div>
+		<div>
+			<h2>Load Dynamic ComboBox Data</h2>
+			<p>Click the button below to load data.</p>
+
+			<div style="margin:20px 0;"><!--引用combobox_data1.json-->
+				<a href="javascript:void(0)" class="easyui-linkbutton" onclick="$('#language').combobox('reload', 'combobox_data1.json')">LoadData</a>
+			</div>
+
+			<input class="easyui-combobox" id="language" name="language"
+				   data-options="valueField:'id',textField:'text'">
+		</div>
+		<div>
+			<h2>Load Dynamic ComboBox Data</h2>
+			<p>Drop down the panel and select multiple items.</p>
+			<div style="margin:20px 0"></div>
+
+			<input class="easyui-combobox"
+				   name="language"
+				   data-options="
+					url:'combobox_data1.json',
+					method:'get',
+					valueField:'id',
+					textField:'text',
+					multiple:true,
+					panelHeight:'auto'
+			">
+		</div>
+		<div>
+			<h2>Binding to Remote Data</h2>
+			<p>The ComboBox is bound to a remote data.</p>
+			<div style="margin:20px 0"></div>
+			<input class="easyui-combobox"
+				   name="language"
+				   data-options="
+					url:'combobox_data1.json',
+					method:'get',
+					valueField:'id',
+					textField:'text',
+					panelHeight:'auto'
+			">
+		</div>
+	</div>
+</body>
+</html>

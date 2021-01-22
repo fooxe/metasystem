@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--easyui公共资源-->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <script type="text/javascript" src="easyUI1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="easyUI1.4/jquery.easyui.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="easyui-panel" title="后台管理系统登录" style="width:400px">
+        <div style="padding:10px 60px 20px 60px">
+            <form id="ff" method="post">
+                <table cellpadding="5">
+                    <tr>
+                        <td>账户:</td>
+                        <td><input class="easyui-textbox" type="text" name="name" data-options="required:true"/></td>
+                    </tr>
+                    <tr>
+                        <td>密码:</td>
+                        <td><input class="easyui-textbox" type="text" name="name" data-options="required:true"/> </td>
+                    </tr>
+                </table>
+            </form>
+
+            <div style="text-align:center;padding:5px">
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()">登录</a>
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="clearForm()">清空</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function submitForm(){
+            $('#ff').form('submit');
+        }
+        function clearForm(){
+            $('#ff').form('clear');
+        }
+    </script>
+</div>
+</body>
+</html>
