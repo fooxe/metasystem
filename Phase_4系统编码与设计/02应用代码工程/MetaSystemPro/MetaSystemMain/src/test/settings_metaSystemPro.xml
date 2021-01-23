@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <localRepository>D:\resposity2021\Msoct\Phase 4系统编码与设计\02应用代码工程\mavenResposity</localRepository>
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <proxies>
+    </proxies>
+    <servers>
+
+        <!--集团spring代理-->
+        <server>
+            <username>group_maven</username>
+            <password>AsYourWish#021</password>
+            <id>spring</id>
+        </server>
+
+        <!--集团jcenter代理-->
+        <server>
+            <username>group_maven</username>
+            <password>AsYourWish#021</password>
+            <id>jcenter</id>
+        </server>
+
+        <!--集团maven代理-->
+        <server>
+            <username>group_maven</username>
+            <password>AsYourWish#021</password>
+            <id>maven</id>
+        </server>
+
+
+        <!--集团apache代理-->
+        <server>
+            <username>group_maven</username>
+            <password>AsYourWish#021</password>
+            <id>apache</id>
+        </server>
+
+        <!--集团spring_milestone代理-->
+        <server>
+            <username>group_maven</username>
+            <password>AsYourWish#021</password>
+            <id>spring_milestone</id>
+        </server>
+
+        <!--集团spring_milestone代理-->
+        <server>
+            <username>asiainfo_nanjing_admin</username>
+            <password>asiainfo_nanjing_admin</password>
+            <id>asiainfo_nanjing</id>
+        </server>
+
+    </servers>
+    <mirrors>
+    </mirrors>
+    <profiles>
+
+
+        <profile>
+
+            <id>central</id>
+            <repositories>
+
+                <repository>
+                    <id>asiainfo_nanjing</id>
+                    <name>asiainfo_nanjing</name>
+                    <url>http://10.128.22.193:8080/artifactory/asiainfo-nanjing/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+                <repository>
+                    <id>spring_milestone</id>
+                    <name>spring_milestone</name>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_spring_milestone/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+                <repository>
+                    <id>apache</id>
+                    <name>apache</name>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_apache/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+
+                <repository>
+                    <id>spring</id>
+                    <name>spring</name>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_spring/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+
+
+                <repository>
+                    <id>jcenter</id>
+                    <name>jcenter</name>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_jcenter/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+
+                <repository>
+
+                    <id>maven</id>
+                    <name>maven</name>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_maven/</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </repository>
+            </repositories>
+
+
+            <pluginRepositories>
+
+
+
+
+
+
+                <pluginRepository>
+
+                    <id>spring_milestone</id>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_spring_milestone/</url>
+                </pluginRepository>
+
+
+                <pluginRepository>
+
+                    <id>spring</id>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_spring/</url>
+                </pluginRepository>
+
+
+                <pluginRepository>
+
+                    <id>jcenter</id>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_jcenter/</url>
+                </pluginRepository>
+
+
+
+                <pluginRepository>
+
+                    <id>maven</id>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_maven/</url>
+                </pluginRepository>
+
+                <pluginRepository>
+
+                    <id>apache</id>
+                    <url>http://10.128.22.193:8080/artifactory/group_public_apache/</url>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+    </profiles>
+
+    <activeProfiles>
+        <activeProfile>central</activeProfile>
+
+    </activeProfiles>
+</settings>

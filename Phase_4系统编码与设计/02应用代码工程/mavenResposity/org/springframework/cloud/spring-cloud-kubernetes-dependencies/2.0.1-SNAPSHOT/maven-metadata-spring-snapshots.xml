@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-kubernetes-dependencies</artifactId>
+  <version>2.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210122.221312</timestamp>
+      <buildNumber>110</buildNumber>
+    </snapshot>
+    <lastUpdated>20210122221313</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0.1-20210122.221312-110</value>
+        <updated>20210122221312</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

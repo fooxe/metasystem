@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-contract-dependencies</artifactId>
+  <version>3.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210123.005836</timestamp>
+      <buildNumber>286</buildNumber>
+    </snapshot>
+    <lastUpdated>20210123005837</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.1-20210123.005836-286</value>
+        <updated>20210123005836</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

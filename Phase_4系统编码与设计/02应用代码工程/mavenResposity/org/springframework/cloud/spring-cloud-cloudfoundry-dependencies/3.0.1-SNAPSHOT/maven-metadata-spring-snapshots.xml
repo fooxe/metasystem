@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-cloudfoundry-dependencies</artifactId>
+  <version>3.0.1-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210122.175100</timestamp>
+      <buildNumber>66</buildNumber>
+    </snapshot>
+    <lastUpdated>20210122175100</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>3.0.1-20210122.175100-66</value>
+        <updated>20210122175100</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
