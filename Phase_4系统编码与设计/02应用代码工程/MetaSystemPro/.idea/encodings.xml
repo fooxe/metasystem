@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/Acquisition" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BusinessMonitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaServerA" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/EurekaServerB" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GateWay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysGtxq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysGybz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysJcss" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysMain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysXsfw" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysXtzc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MetaSysXxgl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyExample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MyExample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SoftRunningMonitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZipkinServer" charset="UTF-8" />
+  </component>
+</project>

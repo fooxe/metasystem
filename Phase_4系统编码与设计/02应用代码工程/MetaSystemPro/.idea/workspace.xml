@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbe950c5-98c6-4db2-95ff-188beb4f78f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/Acquisition.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AliyunMqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AliyunProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AsyncTaskProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/GaodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/GlobalConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/JobProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/PaascloudProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/QiniuProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/ReliableMessageProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/SwaggerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/ZookeeperProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessMonitor/BusinessMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessMonitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaServerA/EurekaServerA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaServerA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaServerB/EurekaServerB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurekaServerB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/GateWay.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GateWay/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysGtxq/MetaSysGtxq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysGtxq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysGybz/MetaSysGybz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysGybz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysJcss/MetaSysJcss.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysJcss/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/MetaSysMainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/LogAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/NotDisplaySql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/OperationLogDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/ValidateAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/aspect/LogAspect.aj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/BusinessTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/DBLoggerSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/DashowLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/LogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/LogTaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/SoPoolFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/SrServiceExecuteTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/config/MainConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/AsyncTaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/DBLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/DynDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/operation/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/security/PortalGuard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/utils/SysConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysMain/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXsfw/MetaSysXsfw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXsfw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXtzc/MetaSysXtzc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXtzc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXxgl/MetaSysXxgl.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MetaSysXxgl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyExample/MyExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyExample/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRunningMonitor/SoftRunningMonitor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRunningMonitor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRunningMonitor/src/main/java/SoftRunningMonitorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZipkinServer/ZipkinServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZipkinServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/aopalliance-1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/aopalliance-1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/aopalliance-1.0.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/aopalliance/aopalliance/1.0/aopalliance-1.0.pom.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/asm/asm-parent/3.3.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/asm/asm-parent/3.3.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/asm/asm/3.3.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/asm/asm/3.3.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/asm/asm/3.3.1/asm-3.3.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/asm/asm/3.3.1/asm-3.3.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1-alpha-2/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1/classworlds-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1/classworlds-1.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1/classworlds-1.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/classworlds/classworlds/1.1/classworlds-1.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/datastax/oss/java-driver-bom/4.9.0/java-driver-bom-4.9.0.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-bom/2.11.4/jackson-bom-2.11.4.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/jackson/jackson-parent/2.11/jackson-parent-2.11.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/oss-parent-38.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/oss-parent-38.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/oss-parent-38.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/fasterxml/oss-parent/38/oss-parent-38.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava-parent/10.0.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava-parent/10.0.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava/10.0.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava/10.0.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava/10.0.1/guava-10.0.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/google/guava/guava/10.0.1/guava-10.0.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/com/oracle/database/jdbc/ojdbc-bom/19.8.0.0/ojdbc-bom-19.8.0.0.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-cli/commons-cli/1.0/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-cli/commons-cli/1.0/commons-cli-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-cli/commons-cli/1.0/commons-cli-1.0.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-cli/commons-cli/1.0/commons-cli-1.0.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-cli/commons-cli/1.0/commons-cli-1.0.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-io/commons-io/2.6/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/commons-io/commons-io/2.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/commons-io/commons-io/2.6/commons-io-2.6.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/commons-io/commons-io/2.6/commons-io-2.6.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/enterprise/cdi-api/1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/enterprise/cdi-api/1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/javax.inject-1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/javax.inject-1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/javax.inject-1.pom.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/javax/inject/javax.inject/1/javax.inject-1.pom.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/junit/junit/3.8.1/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/junit/junit/3.8.1/junit-3.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/junit/junit/3.8.1/junit-3.8.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/junit/junit/3.8.1/junit-3.8.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/junit/junit/3.8.1/junit-3.8.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/10/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/10/apache-10.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/10/apache-10.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/11/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/11/apache-11.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/11/apache-11.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/13/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/13/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/13/apache-13.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/13/apache-13.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/apache-18.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/apache-18.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/apache-18.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/18/apache-18.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/19/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/19/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/19/apache-19.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/19/apache-19.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/23/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/23/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/23/apache-23.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/23/apache-23.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/3/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/3/apache-3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/apache/3/apache-3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-lang3/3.8.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-lang3/3.8.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/42/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/42/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/42/commons-parent-42.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/42/commons-parent-42.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/47/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/47/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/47/commons-parent-47.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/commons/commons-parent/47/commons-parent-47.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/log4j/log4j-bom/2.13.3/log4j-bom-2.13.3.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/logging-parent-1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/logging-parent-1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/logging-parent-1.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/logging/logging-parent/1/logging-parent-1.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-7/doxia-sink-api-1.0-alpha-7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia/1.0-alpha-7/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/doxia/doxia/1.0-alpha-7/doxia-1.0-alpha-7.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-aether-provider/3.1.0/maven-aether-provider-3.1.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact-manager/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact-manager/2.0.6/maven-artifact-manager-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/2.0.6/maven-artifact-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/2.0.6/maven-core-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-core/3.1.0/maven-core-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-error-diagnostics/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-error-diagnostics/2.0.6/maven-error-diagnostics-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model-builder/3.1.0/maven-model-builder-3.1.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/2.0.6/maven-model-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-monitor/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-monitor/2.0.6/maven-monitor-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/21/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/21/maven-parent-21.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/21/maven-parent-21.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/22/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/22/maven-parent-22.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/22/maven-parent-22.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/23/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/23/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/23/maven-parent-23.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/23/maven-parent-23.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/34/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/34/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/34/maven-parent-34.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/34/maven-parent-34.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/5/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/5/maven-parent-5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-parent/5/maven-parent-5.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/2.0.6/maven-plugin-api-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-descriptor/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-descriptor/2.0.6/maven-plugin-descriptor-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-parameter-documenter/2.0.6/maven-plugin-parameter-documenter-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-registry/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-plugin-registry/2.0.6/maven-plugin-registry-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-profile/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-profile/2.0.6/maven-profile-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-project/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-project/2.0.6/maven-project-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/2.0.6/maven-repository-metadata-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-repository-metadata/3.1.0/maven-repository-metadata-3.1.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings-builder/3.1.0/maven-settings-builder-3.1.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/2.0.6/maven-settings-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven-settings/3.1.0/maven-settings-3.1.0.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/2.0.6/maven-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/2.0.6/maven-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/3.1.0/maven-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/maven/3.1.0/maven-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/23/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/23/maven-plugins-23.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/34/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/34/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-plugins/34/maven-plugins-34.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/2.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/2.6/maven-resources-plugin-2.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/3.2.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/plugins/maven-resources-plugin/3.2.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting-api/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting-api/2.0.6/maven-reporting-api-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/reporting/maven-reporting/2.0.6/maven-reporting-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/1.1/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/1.1/maven-filtering-1.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/3.2.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-filtering/3.2.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/17/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/34/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/34/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-components/34/maven-shared-components-34.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-utils/3.3.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/apache/maven/shared/maven-shared-utils/3.3.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/groovy/groovy-bom/2.5.14/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/groovy/groovy-bom/2.5.14/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/groovy/groovy-bom/2.5.14/groovy-bom-2.5.14.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-classworlds/2.4.2/plexus-classworlds-2.4.2.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-classworlds/2.4/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-classworlds/2.4/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-component-annotations/2.0.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-component-annotations/2.0.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-component-annotations/2.0.0/plexus-component-annotations-2.0.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.14/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.14/plexus-components-1.1.14.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.15/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-components/1.1.15/plexus-components-1.1.15.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/1.0.3/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/1.0.3/plexus-containers-1.0.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/2.0.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/2.0.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-containers/2.0.0/plexus-containers-2.0.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.12/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.12/plexus-interpolation-1.12.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.13/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.13/plexus-interpolation-1.13.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.16/plexus-interpolation-1.16.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.26/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.26/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.0.4/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.4.1/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.4.1/plexus-utils-1.4.1.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.5.15/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/1.5.8/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.0.5/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.0.10/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.0.10/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.3.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.3.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.11/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.11/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.11/plexus-1.0.11.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.4/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/1.0.4/plexus-1.0.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.2/plexus-2.0.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.3/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.3/plexus-2.0.3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.6/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.6/plexus-2.0.6.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.7/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/2.0.7/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/3.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/3.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/3.3/plexus-3.3.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/5.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/5.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/codehaus/plexus/plexus/5.1/plexus-5.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/aether/aether-impl/0.9.0.M2/aether-impl-0.9.0.M2.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/jetty-bom-9.4.35.v20201120.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/jetty-bom-9.4.35.v20201120.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/jetty-bom-9.4.35.v20201120.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/jetty/jetty-bom/9.4.35.v20201120/jetty-bom-9.4.35.v20201120.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-inject/0.0.0.M2a/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-inject/0.0.0.M2a/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/glassfish/jersey/jersey-bom/2.32/jersey-bom-2.32.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/infinispan-bom-11.0.8.Final.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/infinispan-bom-11.0.8.Final.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/infinispan-bom-11.0.8.Final.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-bom/11.0.8.Final/infinispan-bom-11.0.8.Final.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/infinispan-build-configuration-parent-11.0.8.Final.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/infinispan-build-configuration-parent-11.0.8.Final.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/infinispan-build-configuration-parent-11.0.8.Final.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/infinispan/infinispan-build-configuration-parent/11.0.8.Final/infinispan-build-configuration-parent-11.0.8.Final.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/jboss-parent-36.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/jboss-parent-36.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/jboss-parent-36.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/jboss-parent/36/jboss-parent-36.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-bom/1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-bom/1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-parent/1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-parent/1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-parent/6/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-parent/6/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-parent/6/weld-parent-6.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jboss/weld/weld-parent/6/weld-parent-6.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/kotlin-bom-1.4.21.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/kotlin-bom-1.4.21.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/kotlin-bom-1.4.21.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlin/kotlin-bom/1.4.21/kotlin-bom-1.4.21.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/kotlinx-coroutines-bom-1.4.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/kotlinx-coroutines-bom-1.4.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/kotlinx-coroutines-bom-1.4.2.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.4.2/kotlinx-coroutines-bom-1.4.2.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/junit/junit-bom/5.7.0/junit-bom-5.7.0.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/10/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/10/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/10/forge-parent-10.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/10/forge-parent-10.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/3/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/3/forge-parent-3.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/3/forge-parent-3.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/5/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/forge/forge-parent/5/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/oss-parent-7.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/oss/oss-parent/7/oss-parent-7.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.4/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.jar.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.4/plexus-build-api-0.0.4.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.7/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.7/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom.lastUpdated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/inject/guice-parent/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/inject/guice-parent/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/inject/guice-parent/3.1.0/guice-parent-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/sisu-guice/3.1.0/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/sisu-guice/3.1.0/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/10/_remote.repositories" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/10/spice-parent-10.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/10/spice-parent-10.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/15/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/15/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/15/spice-parent-15.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/15/spice-parent-15.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/16/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/16/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/16/spice-parent-16.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/16/spice-parent-16.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/17/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/17/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/17/spice-parent-17.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/sonatype/spice/spice-parent/17/spice-parent-17.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/spring-boot-dependencies-2.4.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/spring-boot-dependencies-2.4.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/spring-boot-dependencies-2.4.2.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-dependencies/2.4.2/spring-boot-dependencies-2.4.2.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-maven-plugin/2.4.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-maven-plugin/2.4.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-maven-plugin/2.4.2/spring-boot-maven-plugin-2.4.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-maven-plugin/2.4.2/spring-boot-maven-plugin-2.4.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/spring-boot-starter-parent-2.4.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/spring-boot-starter-parent-2.4.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/spring-boot-starter-parent-2.4.2.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/boot/spring-boot-starter-parent/2.4.2/spring-boot-starter-parent-2.4.2.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/spring-cloud-bus-dependencies-3.0.1-20210122.070812-66.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/spring-cloud-bus-dependencies-3.0.1-20210122.070812-66.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/spring-cloud-bus-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-bus-dependencies/3.0.1-SNAPSHOT/spring-cloud-bus-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.1-20210122.164257-69.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.1-20210122.164257-69.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-circuitbreaker-dependencies/2.0.1-SNAPSHOT/spring-cloud-circuitbreaker-dependencies-2.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.1-20210122.175100-66.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.1-20210122.175100-66.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-cloudfoundry-dependencies/3.0.1-SNAPSHOT/spring-cloud-cloudfoundry-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/spring-cloud-commons-dependencies-3.0.1-20210122.160541-72.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/spring-cloud-commons-dependencies-3.0.1-20210122.160541-72.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/spring-cloud-commons-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-commons-dependencies/3.0.1-SNAPSHOT/spring-cloud-commons-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/spring-cloud-config-dependencies-3.0.2-20210122.210011-46.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/spring-cloud-config-dependencies-3.0.2-20210122.210011-46.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/spring-cloud-config-dependencies-3.0.2-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-config-dependencies/3.0.2-SNAPSHOT/spring-cloud-config-dependencies-3.0.2-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/spring-cloud-consul-dependencies-3.0.1-20210122.194657-68.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/spring-cloud-consul-dependencies-3.0.1-20210122.194657-68.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/spring-cloud-consul-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-consul-dependencies/3.0.1-SNAPSHOT/spring-cloud-consul-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/spring-cloud-contract-dependencies-3.0.1-20210123.005836-286.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/spring-cloud-contract-dependencies-3.0.1-20210123.005836-286.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/spring-cloud-contract-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-contract-dependencies/3.0.1-SNAPSHOT/spring-cloud-contract-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/spring-cloud-dependencies-parent-3.0.0-M5.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/spring-cloud-dependencies-parent-3.0.0-M5.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/spring-cloud-dependencies-parent-3.0.0-M5.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.0-M5/spring-cloud-dependencies-parent-3.0.0-M5.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/spring-cloud-dependencies-parent-3.0.1-20210122.151902-68.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/spring-cloud-dependencies-parent-3.0.1-20210122.151902-68.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/spring-cloud-dependencies-parent-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies-parent/3.0.1-SNAPSHOT/spring-cloud-dependencies-parent-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/spring-cloud-dependencies-2020.0.1-20210122.105331-67.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/spring-cloud-dependencies-2020.0.1-20210122.105331-67.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/spring-cloud-dependencies-2020.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-dependencies/2020.0.1-SNAPSHOT/spring-cloud-dependencies-2020.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-function-dependencies/3.1.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/spring-cloud-gateway-dependencies-3.0.1-20210122.190208-68.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/spring-cloud-gateway-dependencies-3.0.1-20210122.190208-68.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/spring-cloud-gateway-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-gateway-dependencies/3.0.1-SNAPSHOT/spring-cloud-gateway-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/spring-cloud-kubernetes-dependencies-2.0.1-20210122.221312-110.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/spring-cloud-kubernetes-dependencies-2.0.1-20210122.221312-110.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/spring-cloud-kubernetes-dependencies-2.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-kubernetes-dependencies/2.0.1-SNAPSHOT/spring-cloud-kubernetes-dependencies-2.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.1-20210123.015914-300.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.1-20210123.015914-300.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-netflix-dependencies/3.0.1-SNAPSHOT/spring-cloud-netflix-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/spring-cloud-openfeign-dependencies-3.0.1-20210122.234312-78.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/spring-cloud-openfeign-dependencies-3.0.1-20210122.234312-78.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/spring-cloud-openfeign-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-openfeign-dependencies/3.0.1-SNAPSHOT/spring-cloud-openfeign-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/spring-cloud-sleuth-dependencies-3.0.1-20210122.191918-79.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/spring-cloud-sleuth-dependencies-3.0.1-20210122.191918-79.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/spring-cloud-sleuth-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-sleuth-dependencies/3.0.1-SNAPSHOT/spring-cloud-sleuth-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/spring-cloud-stream-dependencies-3.1.0-20201117.160756-71.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/spring-cloud-stream-dependencies-3.1.0-20201117.160756-71.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/spring-cloud-stream-dependencies-3.1.0-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-stream-dependencies/3.1.0-SNAPSHOT/spring-cloud-stream-dependencies-3.1.0-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/maven-metadata-spring-snapshots.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/spring-cloud-task-dependencies-2.3.1-20210122.130701-36.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/spring-cloud-task-dependencies-2.3.1-20210122.130701-36.pom.sha1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/spring-cloud-task-dependencies-2.3.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-task-dependencies/2.3.1-SNAPSHOT/spring-cloud-task-dependencies-2.3.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-vault-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/maven-metadata-spring-snapshots.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/resolver-status.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/spring-cloud-zookeeper-dependencies-3.0.1-20210123.001708-68.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/spring-cloud-zookeeper-dependencies-3.0.1-20210123.001708-68.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/spring-cloud-zookeeper-dependencies-3.0.1-SNAPSHOT.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/cloud/spring-cloud-zookeeper-dependencies/3.0.1-SNAPSHOT/spring-cloud-zookeeper-dependencies-3.0.1-SNAPSHOT.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/spring-data-bom-2020.0.3.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/spring-data-bom-2020.0.3.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/spring-data-bom-2020.0.3.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/data/spring-data-bom/2020.0.3/spring-data-bom-2020.0.3.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/spring-integration-bom-5.4.3.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/spring-integration-bom-5.4.3.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/spring-integration-bom-5.4.3.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/integration/spring-integration-bom/5.4.3/spring-integration-bom-5.4.3.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/spring-security-bom-5.4.2.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/spring-security-bom-5.4.2.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/spring-security-bom-5.4.2.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/security/spring-security-bom/5.4.2/spring-security-bom-5.4.2.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/session/spring-session-bom/2020.0.1/spring-session-bom-2020.0.1.pom.lastUpdated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/_remote.repositories" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/_remote.repositories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/spring-framework-bom-5.3.3.pom" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/spring-framework-bom-5.3.3.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/spring-framework-bom-5.3.3.pom.lastUpdated" beforeDir="false" afterPath="$PROJECT_DIR$/../mavenResposity/org/springframework/spring-framework-bom/5.3.3/spring-framework-bom-5.3.3.pom.lastUpdated" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/MetaSysMain/target/" />
+    <ignored path="$PROJECT_DIR$/Monitor/target/" />
+    <ignored path="$PROJECT_DIR$/Acquisition/target/" />
+    <ignored path="$PROJECT_DIR$/MyExample/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysJcss/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysGybz/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysGtxq/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysXsfw/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysXxgl/target/" />
+    <ignored path="$PROJECT_DIR$/MetaSysXtzc/target/" />
+    <ignored path="$PROJECT_DIR$/SoftRunningMonitor/target/" />
+    <ignored path="$PROJECT_DIR$/ZipkinServer/target/" />
+    <ignored path="$PROJECT_DIR$/EurekaServerB/target/" />
+    <ignored path="$PROJECT_DIR$/GateWay/target/" />
+    <ignored path="$PROJECT_DIR$/EurekaServerA/target/" />
+    <ignored path="$PROJECT_DIR$/BusinessMonitor/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetaSysMain/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyExample/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SoftRunningMonitor/src/main/java/SoftRunningMonitorApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyExample/MyExample.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetaSysXtzc/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GateWay/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZipkinServer/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftRunningMonitor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BusinessMonitor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Aspect" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eurek</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/utils/SysConst.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/utils/com/dashow/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/model/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/LogManager.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/LogTaskFactory.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/DBLogger.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/DBLoggerSender.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/common/DBLoggerSender.java" />
+        <option value="$PROJECT_DIR$/MyExample/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/AsyncTaskFactory.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/common/SoPoolFactory.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/common/BaseException.java" />
+        <option value="$PROJECT_DIR$/MetaSysGtxq/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysGybz/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysXsfw/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysJcss/pom.xml" />
+        <option value="$PROJECT_DIR$/../settings.xml" />
+        <option value="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/JobProperties.java" />
+        <option value="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/GlobalConstant.java" />
+        <option value="$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/PaascloudProperties.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/BaseException.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/LogAnnotation.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/LogAnnotation.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/LogAspect.aj" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/aspect/LogAspect.aj" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/MainConfig.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/config/MainConfig.java" />
+        <option value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/MetaSysMainApplication.java" />
+        <option value="$PROJECT_DIR$/MetaSysXtzc/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysXxgl/pom.xml" />
+        <option value="$PROJECT_DIR$/BusinessMonitor/pom.xml" />
+        <option value="$PROJECT_DIR$/MetaSysMain/pom.xml" />
+        <option value="$PROJECT_DIR$/SoftRunningMonitor/src/main/java/SoftRunningMonitorApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\metasystem\Phase_4系统编码与设计\02应用代码工程\mavenResposity" />
+        <option name="userSettingsFile" value="D:\metasystem\Phase_4系统编码与设计\02应用代码工程\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="610" />
+    <option name="y" value="84" />
+    <option name="width" value="1569" />
+    <option name="height" value="912" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Acquisition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Acquisition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Acquisition" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftRunningMonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftRunningMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetaSystemPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoftRunningMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611462125140" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\metasystem\Phase_4系统编码与设计\02应用代码工程\MetaSystemPro\MetaSysMain\src\main\java\com\dashow\annotation" />
+      <recent name="D:\metasystem\Phase_4系统编码与设计\02应用代码工程\MetaSystemPro\Acquisition\src\main\java\com\dashow\model" />
+      <recent name="D:\metasystem\Phase_4系统编码与设计\02应用代码工程\MetaSystemPro\MetaSysMain\src\main\java\common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dashow.model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dashow.connector" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MetaSysMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="MetaSysMain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dashow.MetaSysMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbe950c5-98c6-4db2-95ff-188beb4f78f4" name="Default Changelist" comment="" />
+      <created>1611383090539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611383090539</updated>
+      <workItem from="1611383093925" duration="831000" />
+      <workItem from="1611384013573" duration="12942000" />
+      <workItem from="1611400416282" duration="590000" />
+      <workItem from="1611401015728" duration="903000" />
+      <workItem from="1611402002427" duration="3372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18638000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16976556" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.14495799" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Jms Browser" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Maven" order="3" visible="true" weight="0.2174616" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSON Viewer" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32983023" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Jms Messenger" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/DashowLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/LogTaskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/LogManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/DBLoggerSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/SrServiceExecuteTask.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/DBLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/BusinessTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/connector/AsyncTaskFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysXsfw/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/SoPoolFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysGtxq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysGybz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/SwaggerProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/ReliableMessageProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/ZookeeperProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AliyunMqConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AliyunProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/AsyncTaskProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/GaodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/JobProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/QiniuProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/GlobalConstant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acquisition/src/main/java/com/dashow/model/PaascloudProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#1125#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/BaseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/ValidateAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/NotDisplaySql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/OperationLogDto.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/annotation/LogAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/aspect/LogAspect.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysXxgl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysXxgl/MetaSysXxgl.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysXtzc/MetaSysXtzc.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysJcss/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/resources/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/common/config/MainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/security/PortalGuard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/java/com/dashow/MetaSysMainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EurekaServerB/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EurekaServerA/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GateWay/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZipkinServer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftRunningMonitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BusinessMonitor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysXtzc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaSysMain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyExample/MyExample.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyExample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftRunningMonitor/src/main/java/SoftRunningMonitorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SoftRunningMonitor</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

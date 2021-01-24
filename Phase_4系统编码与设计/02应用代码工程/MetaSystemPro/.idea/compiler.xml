@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Acquisition" />
+        <module name="BusinessMonitor" />
+        <module name="EurekaServerA" />
+        <module name="EurekaServerB" />
+        <module name="GateWay" />
+        <module name="MetaSysGtxq" />
+        <module name="MetaSysGybz" />
+        <module name="MetaSysJcss" />
+        <module name="MetaSysXsfw" />
+        <module name="MetaSysXtzc" />
+        <module name="MetaSysXxgl" />
+        <module name="MyExample" />
+        <module name="SoftRunningMonitor" />
+        <module name="ZipkinServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Monitor" target="1.8" />
+      <module name="MyExample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Acquisition" options="-parameters" />
+      <module name="BusinessMonitor" options="-parameters" />
+      <module name="EurekaServerA" options="-parameters" />
+      <module name="EurekaServerB" options="-parameters" />
+      <module name="GateWay" options="-parameters" />
+      <module name="MetaSysGtxq" options="-parameters" />
+      <module name="MetaSysGybz" options="-parameters" />
+      <module name="MetaSysJcss" options="-parameters" />
+      <module name="MetaSysXsfw" options="-parameters" />
+      <module name="MetaSysXtzc" options="-parameters" />
+      <module name="MetaSysXxgl" options="-parameters" />
+      <module name="Monitor" options="-parameters" />
+      <module name="MyExample" options="-parameters" />
+      <module name="SoftRunningMonitor" options="-parameters" />
+      <module name="ZipkinServer" options="-parameters" />
+    </option>
+  </component>
+</project>
