@@ -25,7 +25,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Monitor" target="1.8" />
-      <module name="MyExample" target="1.5" />
+      <module name="MyExample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
